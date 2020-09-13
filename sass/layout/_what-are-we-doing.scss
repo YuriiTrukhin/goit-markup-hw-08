@@ -1,11 +1,23 @@
+@media screen and (max-width: 767px) {
+  .what-are-we-doing {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .what-are-we-doing {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
 .what-are-we-doing {
-  padding-left: 215px;
-  padding-right: 215px;
+  display: flex;
   padding-top: 47px;
   padding-bottom: 94px;
 }
 
 .examples {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -43,4 +55,5 @@
   text-transform: uppercase;
   padding-top: 27px;
   color: #ffffff;
+}
 }
