@@ -1324,7 +1324,7 @@ button {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/heroTablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
