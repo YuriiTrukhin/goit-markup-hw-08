@@ -1,0 +1,23 @@
+body {
+  font-family: $main-font;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+}
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+}

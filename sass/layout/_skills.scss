@@ -1,0 +1,67 @@
+.skills {
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+.skills-list {
+  display: flex;
+  margin: 0px;
+  padding-left: 0px;
+}
+.item-list {
+  width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  &:nth-child(1)::before {
+    background-image: url(../images/vector_icon/antenna.svg);
+    background-size: 66px 70px;
+  }
+  &:nth-child(2)::before {
+    background-image: url(../images/vector_icon/clock.svg);
+    background-size: 68px 70px;
+  }
+  &:nth-child(3)::before {
+    background-image: url(../images/vector_icon/diagram.svg);
+    background-size: 70px 54px;
+  }
+  &:nth-child(4)::before {
+    background-image: url(../images/vector_icon/astronaut.svg);
+    background-size: 70px 70px;
+  }
+}
+.skills-name {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $main-font-color;
+  text-transform: uppercase;
+}
+.skills-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
