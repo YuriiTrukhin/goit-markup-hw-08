@@ -1,57 +1,144 @@
-// .hero {
-//   padding-top: 200px;
-//   padding-bottom: 200px;
-//   padding-left: 452px;
-//   padding-right: 452px;
-//   margin-top: 0px;
-//   margin-bottom: 0px;
-//   max-width: 1600px;
-//   height: 600px;
-//   margin-left: auto;
-//   margin-right: auto;
-//   background-image: linear-gradient(
-//       to right,
-//       rgba(47, 48, 58, 0.4),
-//       rgba(47, 48, 58, 0.4)
-//     ),
-//     url(../images/hero/hero.jpg);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   background-color: #2f303a;
-// }
-// .hero-box {
-//   margin: auto;
-//   width: 696px;
-//   display: flex;
-//   flex-direction: column;
-//   justify-items: center;
-//   align-items: center;
-// }
-// .logotype {
-//   font-family: $logo-font;
-//   font-style: normal;
-//   font-weight: bold;
-//   font-size: 26px;
-//   line-height: 1.19;
-//   letter-spacing: 0.03em;
-//   color: $accent-color;
-//   margin-right: 93px;
-//   margin-top: 24px;
-//   margin-bottom: 25px;
-// }
-// .logo-studio {
-//   color: $main-font-color;
-// }
-// .hero-name {
-//   margin-top: 0px;
-//   margin-bottom: 30px;
-//   font-family: $main-font;
-//   font-style: normal;
-//   font-weight: 900;
-//   font-size: 44px;
-//   line-height: 1.36;
-//   text-align: center;
-//   letter-spacing: 0.06em;
-//   color: $white-color;
-// }
+@media screen and (max-width: 767px) {
+.hero {
+  padding-top: 118px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 1600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #2f303a;
+}
+.hero-box {
+  margin: auto;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.hero-name {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white-color;
+}
+}
+@media screen and (min-width: 768px) {
+    .hero {
+  padding-top: 118px;
+  padding-bottom: 118px;
+  padding-left: 204px;
+  padding-right: 204px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 768px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #2f303a;
+}
+.hero-box {
+  margin: auto;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.hero-name {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white-color;
+}
+}
+@media screen and (min-width: 1200px) {
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #2f303a;
+}
+.hero-box {
+  margin: auto;
+  width: 696px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.logotype {
+  font-family: $logo-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+  margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.logo-studio {
+  color: $main-font-color;
+}
+.hero-name {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white-color;
+}
+}
