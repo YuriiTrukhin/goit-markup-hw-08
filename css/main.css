@@ -52,19 +52,20 @@ button {
 
 .container {
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     position: relative;
     width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 }
 
@@ -80,8 +81,6 @@ button {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
@@ -894,6 +893,11 @@ button {
   .navigation {
     display: none;
   }
+  .container {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .header {
     padding: 0;
     max-width: 480px;
@@ -907,6 +911,7 @@ button {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #2196f3;
+    margin: 0px;
   }
   .logo-studio {
     color: #212121;
@@ -927,6 +932,8 @@ button {
     height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .burger-btn.is-open .open-menu-icon {
     display: none;
@@ -941,8 +948,6 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
     width: 100%;
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -957,8 +962,6 @@ button {
     pointer-events: unset;
   }
   .header-nav {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
     width: 99px;
     margin-top: 60px;
   }
@@ -1282,8 +1285,8 @@ button {
     margin-bottom: 0px;
     max-width: 480px;
     height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/heroMobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1292,7 +1295,6 @@ button {
   }
   .hero-box {
     margin: auto;
-    width: 480px;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -1413,9 +1415,6 @@ button {
   .skills-list {
     margin: 0px;
     padding-left: 0px;
-  }
-  .item-list {
-    width: 450px;
   }
   .item-list:not(:last-child) {
     margin-bottom: 30px;
@@ -1679,8 +1678,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
   .team {
     margin-top: 0px;
@@ -2156,7 +2153,6 @@ button {
     margin-bottom: 20px;
   }
   .footer-container {
-    width: 480px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -2204,7 +2200,6 @@ button {
     fill: #fff;
   }
   .subscription {
-    width: 450px;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding-top: 12px;
@@ -2242,7 +2237,6 @@ button {
     flex-direction: column;
   }
   .subscription-form-input {
-    width: 450px;
     height: 50px;
     padding-left: 16px;
     margin-bottom: 20px;

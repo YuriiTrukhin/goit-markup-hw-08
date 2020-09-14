@@ -3,7 +3,13 @@
   .navigation {
     display: none;
   }
+  .container {
+padding: 0 15px;
+margin-left: auto;
+margin-right: auto;
+}
   .header {
+    
   padding: 0;   
   max-width: 480px;
   margin: 0;  
@@ -16,6 +22,7 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: $accent-color;
+  margin: 0px;
   }
   .logo-studio {
   color: $main-font-color;
@@ -37,6 +44,8 @@
   height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .burger-btn.is-open .open-menu-icon {
   display: none;
@@ -51,8 +60,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-margin-left: 0 auto;
-margin-right: 0 auto;
+
 width: 100%;
 background-color: #fff;
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -68,8 +76,7 @@ transition: all 500ms linear;
 }
 
 .header-nav {   
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  
   width: 99px;  
   margin-top: 60px;
   }
@@ -156,7 +163,8 @@ color: #757575;
   .header-menu-tel-mail-position:focus & {
     fill: $accent-color;
   }
-}}
+}
+}
 
 @media screen and (min-width: 768px) {
   .burger-btn {
