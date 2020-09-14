@@ -1,3 +1,22 @@
+.hero-box {
+  margin: auto;  
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.hero-name {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white-color;
+}
 @media screen and (max-width: 767px) {
 .hero {
   padding-top: 118px;
@@ -31,26 +50,8 @@
     url("../images/hero/heroMobile@2x.jpg");
   }
 }
-.hero-box {
-  margin: auto;
-  
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-.hero-name {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.61;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: $white-color;
-}
+
+
 }
 @media screen and (min-width: 768px) {
     .hero {
@@ -88,26 +89,10 @@
     url("../images/hero/heroTablet@2x.jpg");
   }
 }
-.hero-box {
-  margin: auto;
-  width: 360px;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
+.hero-box {  
+  width: 360px;  
 }
-.hero-name {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.61;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: $white-color;
-}
+
 }
 @media screen and (min-width: 1200px) {
 .hero {
@@ -144,38 +129,6 @@
   }
 }
 .hero-box {
-  margin: auto;
   width: 696px;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-.logotype {
-  font-family: $logo-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: $accent-color;
-  margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-}
-.logo-studio {
-  color: $main-font-color;
-}
-.hero-name {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: $white-color;
 }
 }

@@ -397,48 +397,116 @@ button {
   }
 }
 
+.portfolio-menu {
+  padding-bottom: 60px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.nav-button {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #212121;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  padding: 6px 22px;
+}
+
+.nav-button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.nav-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.nav-button.current {
+  color: #2196f3;
+}
+
+.portfolio-examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-work {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.img-portfolio-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(100%);
+  background-color: rgba(33, 150, 243, 0.9);
+  pointer-events: none;
+}
+
+.portfolio-work-example {
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-family: #212121;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.img-portfolio-button {
+  border: 1px solid #eeeeee;
+}
+
 @media screen and (max-width: 767px) {
-  .portfolio-menu {
-    padding-bottom: 60px;
-  }
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    margin-bottom: 40px;
-  }
-  .nav-button {
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid transparent;
-    border-radius: 4px;
-    color: #212121;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    padding: 6px 22px;
-  }
-  .nav-button:hover {
-    color: #ffffff;
-    background-color: #2196f3;
-  }
-  .nav-button:focus {
-    color: #ffffff;
-    background-color: #2196f3;
-  }
-  .nav-button.current {
-    color: #2196f3;
-  }
   .nav-items:not(:last-child) {
     margin-right: 8px;
   }
   .nav-items:nth-child(-n+3) {
     margin-bottom: 15px;
-  }
-  .portfolio-examples {
-    display: flex;
-    flex-wrap: wrap;
   }
   .portfolio-item {
     transition: 250ms;
@@ -457,62 +525,6 @@ button {
     transform: translateY(0%);
     overflow: visible;
     opacity: 1;
-  }
-  .portfolio-work {
-    margin-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
-  }
-  .portfolio-work-example {
-    margin-bottom: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
-    font-family: #212121;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: #757575;
-  }
-  .img-portfolio-box {
-    position: relative;
-    overflow: hidden;
-  }
-  .overlay {
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top: 63px;
-    padding-left: 24px;
-    padding-right: 24px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    opacity: 0;
-    overflow: hidden;
-    transform: translateY(100%);
-    background-color: rgba(33, 150, 243, 0.9);
-    pointer-events: none;
-  }
-  .img-portfolio-button {
-    border: 1px solid #eeeeee;
   }
 }
 
@@ -639,7 +651,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .portfolio-menu {
     margin-left: auto;
     margin-right: auto;

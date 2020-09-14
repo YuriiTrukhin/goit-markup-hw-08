@@ -1,14 +1,36 @@
-@media screen and (max-width: 767px) {
 .skills {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.skills-name {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $main-font-color;
+  text-transform: uppercase;
+}
+.skills-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+@media screen and (max-width: 767px) {
 .skills-list {
   margin: 0px;
   padding-left: 0px;
 }
-.item-list {
-  
+.item-list {  
   &:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -40,41 +62,16 @@
     background-size: 70px 70px;
   }
 }
-.skills-name {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: $main-font-color;
-  text-align: center;
-  text-transform: uppercase;
+.skills-name { 
+  text-align: center; 
 }
-.skills-description {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
+
 }
 @media screen and (min-width: 768px) {
-.skills {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px;
-  padding-left: 0px;
+ 
 }
 .item-list {
   width: 354px;
@@ -108,29 +105,6 @@
     background-image: url(../images/vector_icon/astronaut.svg);
     background-size: 70px 70px;
   }
-}
-.skills-name {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: $main-font-color;
-  text-transform: uppercase;
-}
-.skills-description {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 }
 @media screen and (min-width: 1200px) {
@@ -178,27 +152,5 @@
     background-size: 70px 70px;
   }
 }
-.skills-name {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: $main-font-color;
-  text-transform: uppercase;
-}
-.skills-description {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
+
 }
