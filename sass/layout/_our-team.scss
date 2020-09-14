@@ -25,19 +25,6 @@
     margin-bottom: 30px;
   }
 }
-.team_photo {
-  display: none;
-  margin: 0px;
-}
-.team_photo_mobile {
-  display: flex;
-  margin: 0;
-}
-.team_photo_tablet {
-  display: none;
-margin: 0;
-}
-
 .team-list-member {
   margin-bottom: 10px;
   margin-top: 30px;
@@ -102,15 +89,7 @@ margin: 0;
     margin-bottom: 30px;
   }
 }
-.team_photo_mobile{
-  display: none;
-}
-.team_photo {
-  display: none;
-}
-.team_photo_tablet {
-margin: 0;
-}
+
 
 .team-list-member {
   margin-bottom: 10px;
@@ -169,17 +148,6 @@ margin: 0;
   &:nth-child(-n+2) {
     margin-bottom: 0px;
   }
-}
-
-.team_photo_mobile {
-  display: none;
-}
-.team_photo_tablet {
-display: none;
-}
-.team_photo { 
-  display: block; 
-  margin: 0px;
 }
 
 .team-list-member {

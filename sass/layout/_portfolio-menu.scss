@@ -93,15 +93,7 @@
   position: relative;
   overflow: hidden;
 }
-.img-portfolio {
-  display: none;
-}
-.img-portfolio-mobile-tablet {
- display: none; 
-}
-.img-portfolio-mobile {
 
-}
 .overlay {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -231,15 +223,7 @@
   position: relative;
   overflow: hidden;
 }
-.img-portfolio {
-  display: none;
-}
-.img-portfolio-mobile-tablet {
-  
-}
-.img-portfolio-mobile {
-display: none;
-}
+
 .overlay {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -367,15 +351,7 @@ display: none;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.img-portfolio {
-  display: block;
-}
-.img-portfolio-mobile-tablet {
-  display: none;
-}
-.img-portfolio-mobile {
-display: none;
-}
+
 .img-portfolio-box {
   position: relative;
   overflow: hidden;
