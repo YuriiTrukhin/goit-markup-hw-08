@@ -1,20 +1,7 @@
-
-@media screen and (max-width: 767px) {
-  .navigation {
+.navigation {
     display: none;
-  }
-  .container {
-padding: 0 15px;
-margin-left: auto;
-margin-right: auto;
 }
-  .header {
-    
-  padding: 0;   
-  max-width: 480px;
-  margin: auto;  
-  }
-  .logotype {
+.logotype {
   font-family: $logo-font;
   font-style: normal;
   font-weight: bold;
@@ -22,11 +9,19 @@ margin-right: auto;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: $accent-color;
-  margin: 0px;
-  }
-  .logo-studio {
+}
+.logo-studio {
   color: $main-font-color;
   }
+@media screen and (max-width: 767px) {
+  .header {    
+  padding: 0;   
+  max-width: 480px;
+  margin: auto;  
+  }
+  .logotype {
+  margin: 0px;
+  }  
   .close-menu-icon {
   display: none;
   &:hover {
@@ -167,27 +162,16 @@ color: #757575;
 }
 
 @media screen and (min-width: 768px) {
-  .burger-btn {
+.burger-btn {
     display: none;
   }
   .header {  
   margin: 0;
-  }
+}
 
 .logotype {
   width: 134px;
-  font-family: $logo-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;  
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: $accent-color;
   margin-right: 88px;  
-}
-
-.logo-studio {
-  color: $main-font-color;
 }
 
 .navigation {
@@ -336,18 +320,10 @@ color: #757575;
     margin-right: 93px;
   }
   .navigation-list {
-  display: flex;
-  padding-left: 0px;
-  padding-top: 11px;
   margin-right: 275px;   
 }
 .header-tel-mail {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction:row;
-  margin: 0;
-    
+flex-direction:row;    
 }
 .header-tel-link {
   margin-right: 0px;
