@@ -95,9 +95,9 @@ button {
   overflow: hidden auto;
   transition: transform 500ms linear 500ms;
   position: absolute;
-  top: 50%;
+  top: 221px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   width: 100%;
   max-width: 450px;
   max-height: 600px;
@@ -240,7 +240,7 @@ textarea {
 }
 
 .form-input {
-  width: 370px;
+  width: 100%;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
@@ -277,7 +277,7 @@ textarea {
 }
 
 .form-text-area {
-  width: 370px;
+  width: 100%;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   height: 120px;
@@ -410,13 +410,13 @@ textarea {
     top: 10px;
   }
   .form {
-    width: 528px;
+    min-width: 530px;
   }
   .form-input {
-    width: 448px;
+    width: 100%;
   }
   .form-text-area {
-    width: 448px;
+    width: 100%;
     font-size: 12px;
     line-height: 1.16;
   }
