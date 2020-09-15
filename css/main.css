@@ -92,10 +92,9 @@ button {
 }
 
 .modal {
-  overflow: hidden auto;
   transition: transform 500ms linear 500ms;
   position: absolute;
-  top: 221px;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, 0);
   width: 100%;
@@ -410,7 +409,7 @@ textarea {
     top: 10px;
   }
   .form {
-    min-width: 530px;
+    min-width: 528px;
   }
   .form-input {
     width: 100%;
