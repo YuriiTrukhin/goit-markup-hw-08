@@ -120,6 +120,9 @@
     opacity: 1;
   }
 }
+.overlay {
+  display: none;
+}
 
 }
 @media screen and (min-width: 768px) {
@@ -251,6 +254,7 @@
 .img-portfolio-button {
   border: 1px solid #eeeeee;
 }
+
 @media screen and (min-width: 1200px) {
 .portfolio-menu {
   margin-left: auto;

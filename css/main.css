@@ -900,6 +900,20 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .hero-name {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
 .skills {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1522,6 +1536,7 @@ textarea {
 }
 
 .subscription-form-input {
+  color: lightgray;
   height: 50px;
   padding-left: 16px;
   margin-bottom: 20px;
@@ -1627,6 +1642,7 @@ textarea {
     flex-direction: unset;
   }
   .subscription-form-input {
+    margin-right: 12px;
     width: 358px;
     height: 50px;
   }

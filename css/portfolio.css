@@ -526,6 +526,9 @@ button {
     overflow: visible;
     opacity: 1;
   }
+  .overlay {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -961,6 +964,7 @@ button {
 }
 
 .subscription-form-input {
+  color: lightgray;
   height: 50px;
   padding-left: 16px;
   margin-bottom: 20px;
@@ -1066,6 +1070,7 @@ button {
     flex-direction: unset;
   }
   .subscription-form-input {
+    margin-right: 12px;
     width: 358px;
     height: 50px;
   }
