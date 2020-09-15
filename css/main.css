@@ -100,7 +100,7 @@ button {
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 450px;
-  min-height: 609px;
+  max-height: 600px;
   background-color: #fff;
 }
 
@@ -183,13 +183,14 @@ textarea {
 }
 
 .form {
-  width: 450px;
+  max-width: 450px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
 }
 
 .form-title {
+  max-width: 450px;
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -239,9 +240,9 @@ textarea {
 }
 
 .form-input {
+  width: 370px;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  width: 370px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -276,9 +277,9 @@ textarea {
 }
 
 .form-text-area {
+  width: 370px;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  width: 370px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
